@@ -176,10 +176,13 @@ document.addEventListener('DOMContentLoaded', function() {
             position: fixed;
             top: 20px;
             right: 20px;
-            background: rgba(25, 118, 210, 0.9);
-            color: white;
+            background: linear-gradient(135deg, rgba(255, 219, 227, 0.95), rgba(236, 231, 234, 0.95));
+            color: #6d5c63;
+            border: 1px solid #efd2d9;
+            box-shadow: 0 10px 25px rgba(160,140,150,0.18),
+            0 4px 10px rgba(255,181,192,0.18);
             padding: 12px 20px;
-            border-radius: 25px;
+            border-radius: 18px;
             font-size: 14px;
             font-weight: 500;
             z-index: 1000;
